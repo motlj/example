@@ -1,0 +1,7 @@
+when logged in - must be able to pull file from active repository into kt's text editor. must be able to edit file and push back to github.
+
+without needing to be logged in, have chat option available to all users that are on the same URL/in the same repo (use GET to match URL). if logged in have the chat use their username and github avitar. 
+
+give logged in user the ability to download the entire repo into a zip file onto their local machine.
+
+let user fork file to their own github. then do a pull request that goes to the contributers of the repo they're trying to collaborate on. Let original repo users decide whether or not to accept or deny the pull request. handle all of this on the website.
