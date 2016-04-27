@@ -34,4 +34,6 @@ var commitMsg = 'attempting to change';*/
 //write the changes to Github
 /*repo.write(branchToModiy, fileToModify, fileContents, commitMsg, options, function(err) {});*/
 
-repo.read('master', 'github/index.html', function(err, data) {});
+repo.read('master', 'github/index.html', function(err, data) {
+	console.log(data);
+});
