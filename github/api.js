@@ -8,7 +8,7 @@ var email = "joshuadamotl@gmail.com";
 var author = "Joshua Motl";
 
 // https://github.com/settings/tokens
-var oauthToken = "25d2f206192bdc3ff3f25163c4fe21f8de4611cb";
+var oauthToken = "5a8e600ffb39c45bab4631a0bff28a837db75717";
 
 //create instance of wrapper
 var github = new Github({
@@ -28,7 +28,7 @@ var options = {
 //set the changes you want to make
 var branchToModiy = 'master';
 var fileToModify = 'github/index.html';
-var fileContents = 'did this work?';
+var fileContents = '<!DOCTYPE html><html><body><h1>did this work?</h1></body></html>';
 var commitMsg = 'attempting to change';
 
 //write the changes to Github
