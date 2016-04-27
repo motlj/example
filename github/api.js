@@ -3,7 +3,7 @@ var Github = require('github-api');
 
 //set the information your need to use the github-api
 var username = "motlj";
-var reponame = "portfolio";
+var reponame = "example";
 var email = "joshuadamotl@gmail.com";
 var author = "Joshua Motl";
 
