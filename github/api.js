@@ -27,9 +27,9 @@ var options = {
 
 //set the changes you want to make
 var branchToModiy = 'master';
-var fileToModify = '';
-var fileContents = '';
-var commitMsg = '';
+var fileToModify = 'github/index.html';
+var fileContents = 'did this work?';
+var commitMsg = 'attempting to change';
 
 //write the changes to Github
 repo.write(branchToModiy, fileToModify, fileContents, commitMsg, options, function(err) {});
