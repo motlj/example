@@ -8,7 +8,7 @@ var email = "joshuadamotl@gmail.com";
 var author = "Joshua Motl";
 
 // https://github.com/settings/tokens
-var oauthToken = "6f4917362939a19fa6dd77d48b23d1b4908e6d7f";
+var oauthToken = "25d2f206192bdc3ff3f25163c4fe21f8de4611cb";
 
 //create instance of wrapper
 var github = new Github({
